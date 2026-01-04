@@ -1,0 +1,59 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Go build directories
+bin/
+dist/
+
+# Go module files
+vendor/
+go.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*#
+.#*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+
+# Test coverage
+*.cover
+coverage.txt
+coverage.html
+
+# Environment variables
+.env
+.env.local
